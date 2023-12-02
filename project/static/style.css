@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital@1&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    color: white;
+    font-family: "Kanit", sans-serif;
+    background-image: url('skyline2.jpg');
+    background-size: cover;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header {
+    padding: 0 20px;
+    background-color: #4cbb17;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#brand {
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+#brand a {
+    color: white;
+}
+
+ul {
+    list-style: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+ul a {
+    color: white;
+}
+
+ul li {
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.choose {
+    display: flex;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+}
+
+.choose button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+    background-color: #4cbb17;
+    border: none
+
+}
+
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+/*nonem underlinu un default zilo krasu visiem hyperlinkiem*/
